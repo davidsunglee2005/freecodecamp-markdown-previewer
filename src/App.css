@@ -1,0 +1,39 @@
+.App {
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(44, 62, 80);
+}
+
+#quote-box {
+  border-radius: 3px;
+  position: relative;
+  width: 450px;
+  padding: 40px 50px;
+  display: table;
+  background-color: #fff;
+}
+
+#quote-box #text {
+  text-align: center;
+  width: 450px;
+  height: auto;
+  clear: both;
+  font-weight: 500;
+  font-size: 1.75em;
+}
+
+#quote-box #author {
+  width: 450px;
+  height: auto;
+  padding-top: 20px;
+  font-size: 1em;
+  text-align: right;
+  padding-bottom: 20px;
+}
+
+#quote-box #new-quote {
+  margin-bottom: 20px;
+}
